@@ -5,5 +5,5 @@ def delete_at(my_list=[], idx=0):
         return my_list
     for i in range(len(my_list)):
         if i != idx
-        new_list = my_list
-        return new_list
+        my_list = my_list
+        return my_list
